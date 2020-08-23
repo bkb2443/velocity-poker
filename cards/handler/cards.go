@@ -2,10 +2,9 @@ package handler
 
 import (
 	"context"
+	cards "github.com/veleocity-poker/cards/proto"
 
 	log "github.com/micro/micro/v3/service/logger"
-
-	cards "cards/proto"
 )
 
 type Cards struct{}
